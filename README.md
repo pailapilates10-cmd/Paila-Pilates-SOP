@@ -1,31 +1,49 @@
-# Paila Pilates — Company SOP & Operations Handbook
+# Paila Pilates — Client Portal & SOP Handbook
 
-This repository contains the public-facing company operations handbook for Paila Pilates.
+This repository is the public-safe presentation layer for the Paila Pilates owner/client-facing digital gateway.
 
-## Purpose
+## Live architecture
 
-The handbook is designed to turn company procedures into a clear, searchable, mobile-friendly reference rather than a static document.
+- `/` — Client Portal home
+- `/sop/` — SOP / Operations Handbook
+- Customer Portal — linked externally to the separate `pailapilates10-cmd/Paila-Pilates.com` repository and GitHub Pages site
+- Business Systems — private operational source exists; no public owner-facing presentation is published here yet
+- Reports — no approved portal published yet
+- Future Systems — added only when a real, approved system exists
 
-## Structure
+## Repository files
 
-- `index.html` — handbook interface and SOP content shell
-- `styles.css` — visual design and responsive layout
-- `script.js` — navigation, search, filters, and interactions
-- `docs/` — detailed SOP source pages, templates, and supporting documentation
+- `index.html` — Client Portal home
+- `portal.css` — Client Portal visual system
+- `portal.js` — Client Portal lightweight runtime
+- `version.json` — current visible version and fallback lineage
+- `CHANGELOG.md` — milestone and version history
+- `sop/index.html` — preserved SOP Handbook interface
+- `styles.css` — SOP Handbook styling
+- `script.js` — SOP Handbook search/navigation interactions
 
-## Content policy
+## Versioning and rollback
 
-This repository is **public**. Do **not** store passwords, API keys, customer personal information, private staff information, sensitive financial records, access credentials, or confidential security procedures here.
+GitHub Pages stays on `main` → `/(root)`.
 
-Sensitive operational material should live in a separate private repository or approved internal system.
+Branches are **not** used as website navigation. They are behind-the-scenes development or fallback references. The pre-portal SOP milestone is preserved at:
 
-## Working model
+- commit `b22cf439a3d3457b66c8174f27a97744ab283f99`
+- branch `milestone/sop-handbook-v0.1.0`
 
-- Google Drive / Docs: source material, meeting notes, and collaborative drafts
-- GitHub: version-controlled SOP source
-- GitHub Pages: polished handbook for reading and sharing
-- ChatGPT: helps structure, update, validate, and maintain the handbook
+Every commit remains part of Git history, so individual changes can be inspected or restored. Named milestones provide an easier rollback pointer.
 
-## Status
+## Authority model
 
-Initial handbook framework. SOP content will be expanded and reviewed with the owner over time.
+- Google Drive / approved business sources: business and operational source authority
+- GitHub: version-controlled public/client-safe presentation code
+- GitHub Pages: public-safe presentation layer
+- Restricted operational material remains in approved private systems
+
+## Public repository rule
+
+Never commit passwords, API keys, private customer/member information, health information, payment records, staff personal information, confidential security procedures, private operational workbooks, or internal credentials.
+
+## Current version
+
+See `version.json` and `CHANGELOG.md`.

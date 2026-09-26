@@ -1,0 +1,13 @@
+{
+  "product": "Paila Pilates Client Portal",
+  "current": "0.2.0",
+  "date": "2026-09-26",
+  "source_branch": "main",
+  "pages_source": "main:/(root)",
+  "previous_milestone": {
+    "version": "0.1.0",
+    "label": "Standalone SOP Handbook",
+    "commit": "b22cf439a3d3457b66c8174f27a97744ab283f99",
+    "fallback_branch": "milestone/sop-handbook-v0.1.0"
+  }
+}
