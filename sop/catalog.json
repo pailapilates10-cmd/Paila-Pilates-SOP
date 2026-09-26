@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "presentation_source": "https://github.com/pailapilates10-cmd/Paila-Pilates-SOP/blob/7875b3540051bb3671b97f5ebabd1f01d601898f/sop/index.html",
+  "approval_status": "not supplied",
+  "procedures": [
+    {
+      "code": "SOP-OPS-001",
+      "title": "Opening & closing",
+      "purpose": "Studio readiness and end-of-day controls.",
+      "status": "Planned",
+      "category": "daily",
+      "path": "sop-ops-001.html"
+    },
+    {
+      "code": "SOP-CX-001",
+      "title": "Customer enquiries",
+      "purpose": "Response, qualification, follow-up, escalation.",
+      "status": "Planned",
+      "category": "customer",
+      "path": "sop-cx-001.html"
+    },
+    {
+      "code": "SOP-DATA-001",
+      "title": "Business reporting",
+      "purpose": "Metric definitions, refresh cycle, validation, ownership.",
+      "status": "Draft",
+      "category": "data",
+      "path": "sop-data-001.html"
+    },
+    {
+      "code": "SOP-AI-001",
+      "title": "AI-assisted workflows",
+      "purpose": "Safe use, review points, data handling, accountability.",
+      "status": "Draft",
+      "category": "ai",
+      "path": "sop-ai-001.html"
+    }
+  ]
+}
