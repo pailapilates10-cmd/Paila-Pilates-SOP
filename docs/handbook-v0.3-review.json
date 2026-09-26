@@ -1,0 +1,21 @@
+{
+  "artifact_id": "ART-PAILA-CLIENT-HANDBOOK-V030-001",
+  "status": "PREVIEW",
+  "scope": "Client Portal SOP handbook presentation only",
+  "source_repository_id": "1387402775",
+  "observed_current_checkpoint_start": "7875b3540051bb3671b97f5ebabd1f01d601898f",
+  "rollback_commit": "7875b3540051bb3671b97f5ebabd1f01d601898f",
+  "lineage": [
+    {"relation": "DERIVED_FROM", "provider_id": "github:1387402775:7875b3540051bb3671b97f5ebabd1f01d601898f:sop/index.html"}
+  ],
+  "content_boundary": "Existing draft/planned framework only; no new business procedures or approval facts",
+  "validation": {
+    "javascript_syntax": "PASS",
+    "local_links_and_unique_ids": "PASS: 17 HTML pages",
+    "rendered_browser": "INCOMPLETE: local Chromium executable unavailable"
+  },
+  "local_library_registration": "PENDING",
+  "main_sync": "PENDING",
+  "deployment": "NOT_REQUESTED_IN_THIS_REVIEW_PACKAGE",
+  "continuation": "Verify rendered mobile/desktop interface, reconcile and register the preview in existing A9 Local Library, then promote the reviewed change with provider readback. No Customer Portal edits."
+}

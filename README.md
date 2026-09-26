@@ -7,7 +7,7 @@ This repository is the public-safe presentation layer for the Paila Pilates owne
 - `/` — Client Portal home
 - `/sop/` — SOP / Operations Handbook
 - Customer Portal — linked externally to the separate `pailapilates10-cmd/Paila-Pilates.com` repository and GitHub Pages site
-- Business Systems — private operational source exists; no public owner-facing presentation is published here yet
+- Business Systems — operational source reconciliation pending; no public owner-facing presentation is published here yet
 - Reports — no approved portal published yet
 - Future Systems — added only when a real, approved system exists
 
@@ -18,9 +18,11 @@ This repository is the public-safe presentation layer for the Paila Pilates owne
 - `portal.js` — Client Portal lightweight runtime
 - `version.json` — current visible version and fallback lineage
 - `CHANGELOG.md` — milestone and version history
-- `sop/index.html` — preserved SOP Handbook interface
+- `sop/index.html` — searchable SOP directory; individual SOP and topic pages live alongside it
 - `styles.css` — SOP Handbook styling
-- `script.js` — SOP Handbook search/navigation interactions
+- `sop/handbook.js` — search, filters, navigation and legacy fragment handling
+- `sop/handbook.css` — responsive handbook layout
+- `sop/catalog.json` — public procedure metadata and preserved presentation-source reference
 
 ## Versioning and rollback
 
@@ -47,3 +49,8 @@ Never commit passwords, API keys, private customer/member information, health in
 ## Current version
 
 See `version.json` and `CHANGELOG.md`.
+
+
+## Review boundary
+
+The four SOP records retain their existing Draft/Planned status. Missing owners, approvers, scope and effective/review dates are explicit. Publishing this interface does not approve its procedures.

@@ -1,5 +1,13 @@
 # Paila Pilates Client Portal — Change Log
 
+## v0.3.0 — 2026-09-26
+
+- Split the handbook into a searchable directory, four procedure records and eleven topic pages.
+- Preserved existing draft/planned content; recorded missing approval metadata explicitly.
+- Added stable presentation-source references, keyboard/mobile navigation and legacy section redirects.
+- Corrected the unverified Business Systems source claim.
+- Rollback: commit `7875b3540051bb3671b97f5ebabd1f01d601898f`. No change to Customer Portal or Drive hierarchy.
+
 ## v0.2.0 — 2026-09-26
 
 - Converted the repository root into the Paila Pilates Client Portal.
@@ -23,3 +31,4 @@ Standalone SOP Handbook framework with responsive layout, search, navigation, SO
 ## Deployment model
 
 GitHub Pages should remain configured to deploy from `main` and `/(root)`. Branches are used for development and fallback snapshots, not for visitor navigation. Public sections are implemented as folders/subpages under the same deployed site.
+
